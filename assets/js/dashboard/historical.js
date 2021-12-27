@@ -42,7 +42,7 @@ function Historical(props) {
       </div>
       <VisitorGraph site={props.site} query={props.query} />
       <div className="items-start justify-between block w-full md:flex">
-//         <Sources site={props.site} query={props.query} />
+        <Sources site={props.site} query={props.query} />
         <Pages site={props.site} query={props.query} />
       </div>
       <div className="items-start justify-between block w-full md:flex">
